@@ -1,0 +1,62 @@
+.App-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.NotificationList-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.check-icon {
+  color: #2dca73;
+  width: 50px;
+  height: 30px;
+  margin-top: 25px;
+}
+.alert-success {
+  color: #2dca73;
+  font-size: 25px;
+}
+
+.warning-icon {
+  color: #ffb800;
+  width: 50px;
+  height: 30px;
+  margin-top: 25px;
+}
+
+.alert-warning {
+  color: #ffb800;
+  font-size: 25px;
+}
+
+.error-icon {
+  color: #ff0b37;
+  width: 50px;
+  height: 30px;
+  margin-top: 25px;
+}
+.alert-error {
+  color: #ff0b37;
+  font-size: 25px;
+}
+
+.info-icon {
+  color: #0f81e0;
+  width: 50px;
+  height: 30px;
+  margin-top: 25px;
+}
+.alert-info {
+  color: #0f81e0;
+  font-size: 25px;
+}
+.message-container {
+  margin-top: 4px;
+}
